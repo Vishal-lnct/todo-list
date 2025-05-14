@@ -1,0 +1,46 @@
+form{
+  width:1170px;
+  margin:auto;
+  display: flex;
+  gap:20px;
+}
+form input{
+  flex-basis: 80%;
+  height:40px;
+}
+form button{
+  flex-basis:20%;
+}
+.outerdiv{
+  width:1170px;
+  margin:auto
+}
+.outerdiv ul{
+  margin: 0px;
+  margin: 40px;
+  margin-left: 2px;
+
+  padding: 0px;
+  list-style: none;
+}
+.outerdiv ul li{
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+  background-color: black;
+  text-align: left;
+  
+  position: relative;
+
+}
+.outerdiv ul li span{
+  position: absolute;
+  right:20px;
+  cursor: pointer;
+}
+.completetodo{
+  text-decoration: line-through;
+  color: red !important;
+  background-color: yellow !important;
+}
